@@ -11,4 +11,6 @@ public interface IStudentDAO {
 
 	List<StudentEntity> getAllStudents();
 
+	String updateById(Long stId, StudentEntity entity);
+
 }
