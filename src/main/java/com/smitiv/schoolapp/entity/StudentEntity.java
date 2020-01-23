@@ -11,6 +11,10 @@ import javax.persistence.Table;
 @Table(name = "student_details")
 public class StudentEntity implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 354912524810897885L;
 	@Id
 	@Column(name = "st_enrollment")
 	private Long stEnroll;
