@@ -11,4 +11,6 @@ public interface IStudentService {
 
 	List<StudentDTO> getAllStudents();
 
+	String updateById(Long stId, StudentDTO dto);
+
 }
